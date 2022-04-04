@@ -17,7 +17,7 @@
 		<Compile Remove="*.iOS.cs" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageReference Include="Xamarin.Forms" Version="5.0.0.2337" />
+		<PackageReference Include="Xamarin.Forms" Version="5.0.0.2401" />
 	</ItemGroup>
 	<ItemGroup Condition=" $(TargetFramework.StartsWith('xamarin.ios')) ">
 		<None Remove="*.iOS.cs" />
