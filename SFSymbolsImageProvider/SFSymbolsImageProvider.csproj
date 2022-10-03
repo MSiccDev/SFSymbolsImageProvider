@@ -11,13 +11,14 @@
 		<RepositoryType>git</RepositoryType>
 		<RepositoryUrl>https://github.com/ddomengeaux/SFSymbolsImageProvider.git</RepositoryUrl>
 		<EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+		<ReleaseVersion>1.0.22031</ReleaseVersion>
 	</PropertyGroup>
 	<ItemGroup>
 		<Compile Include="*.cs" />
 		<Compile Remove="*.iOS.cs" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageReference Include="Xamarin.Forms" Version="5.0.0.2478" />
+		<PackageReference Include="Xamarin.Forms" Version="5.0.0.2515" />
 	</ItemGroup>
 	<ItemGroup Condition=" $(TargetFramework.StartsWith('xamarin.ios')) ">
 		<None Remove="*.iOS.cs" />
